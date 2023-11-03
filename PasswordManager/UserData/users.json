@@ -1,0 +1,44 @@
+[
+	{
+		"Email": "abc@gmail.com",
+		"Password": "ioj7*Hjuy",
+		"Data": [
+			{
+				"Name": "facebook.com",
+				"Username": "abc@gmail.com",
+				"Password": "fb123456"
+			},
+			{
+				"Name": "costco.com",
+				"Username": "def@gmail.com",
+				"Password": "cc123456"
+			}
+		]
+	},
+	{
+		"Email": "beauty@gmail.com",
+		"Password": "abcDef4\u0026",
+		"Data": [
+			{
+				"Name": "youtube.com",
+				"Username": "beauty@gmail.com",
+				"Password": "ytb56789"
+			},
+			{
+				"Name": "gap.com",
+				"Username": "beauty@gmail.com",
+				"Password": "gap56789"
+			}
+		]
+	},
+	{
+		"Email": "abc2@gmail.com",
+		"Password": "abc1B2#c",
+		"Data": []
+	},
+	{
+		"Email": "xyz@yahoo.com",
+		"Password": "abcAbc123#",
+		"Data": []
+	}
+]
