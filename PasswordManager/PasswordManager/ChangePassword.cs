@@ -74,7 +74,7 @@ namespace PasswordManager
             {
                 lb_ConfirmNewPassword_Validation.Text = "Your password has been changed";
             }
-            string path = "../../../UserData/users.json";
+            string path = "UserData/users.json";
             var users = ExtraFunctions.Read_Json_File(path);
             foreach (var user in users)
             {
