@@ -107,7 +107,7 @@ namespace PasswordManager
                 {
                     account_created.Text = "Your account was succesfully created";
 
-                    string pathToJsonFile = "../../../UserData/users.json";
+                    string pathToJsonFile = Setting.JsonPath;
                     var users = ExtraFunctions.Read_Json_File(pathToJsonFile);
                     User newUser = new User
                     {

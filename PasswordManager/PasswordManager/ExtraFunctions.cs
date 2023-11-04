@@ -41,7 +41,7 @@ namespace PasswordManager
         }
         public static bool Email_Verification(string emailInput)
         {
-            string pathToJsonFile = "UserData/users.json";
+            string pathToJsonFile = Setting.JsonPath;
             var users = Read_Json_File(pathToJsonFile);
             foreach (var user in users)
             {
@@ -54,7 +54,7 @@ namespace PasswordManager
         }
         public static bool Password_Verification(string passwordInput)
         {
-            string pathToJsonFile = "UserData/users.json";
+            string pathToJsonFile = Setting.JsonPath;
             var users = Read_Json_File(pathToJsonFile);
             foreach (var user in users)
             {

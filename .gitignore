@@ -3,3 +3,5 @@
 ################################################################################
 
 /PasswordManager/PasswordManager/bin/Release
+/PasswordManager/PasswordManager/obj/Release
+/PasswordManager/.vs
